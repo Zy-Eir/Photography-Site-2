@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio-styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="nav-menu">
+        <div>
+
+            <a class="nav-menu-link hide-nl-mobile" href="portfolio.html">PORTFOLIO</a>
+
+            <button class="hamburger-button" id="hamburger-button">
+                <svg class="burger-styles"
+                viewBox="0 0 24 24" width="32" height="32">
+                <path
+                    d="
+                m 2 8
+                h 20
+                "
+                />
+
+                <path
+                    d="
+                m 2 14
+                h 20
+                "
+                />
+
+                <path
+                    d="
+                m 2 20
+                h 20
+                "
+                />
+                
+                
+                </svg>
+
+            </button>
+
+         </div>
+        <a class="nav-menu-link nav-menu-logo" href="index.html">Lotus Inc.</a>
+
+        <a class="nav-menu-link hide-nl-mobile nav-menu-desk-link" href="services.html">SERVICES</a>
+    </nav>
+
+    <div id="nav-menu" style="display: none;" class="dropdown-container">
+        
+        
+
+        <div class="dropdown-wrapper">
+
+            <div id="exit-button" class="exit-button-style">
+                <button class="hamburger-button-exit">
+                    <svg 
+                    viewBox="0 0 24 24" width="32" height="32">>
+                        <path 
+                            d="
+                            M 2 2 
+                            L 22 22
+                            z
+                            M 2 22
+                            L 22 2
+                            z
+                            "
+                        />
+                    </svg> 
+                </button>
+            </div>
+
+
+
+            <div class="dropdown-link-spacing">
+                <div class="dropdown-link-wrapper">
+                    
+                    <a class="dropdown-link" href="index.html">HOME</a>
+                </div>
+
+                <div class="dropdown-link-wrapper">
+                    <a class="dropdown-link" href="portfolio.html">PORTFOLIO</a>
+                </div>
+
+                <div class="dropdown-link-wrapper">
+                    <a class="dropdown-link" href="services.html">SERVICES</a>
+                </div>
+            </div>
+            
+        </div>             
+    </div>
+
+    <div class="section-wrapper">
+        <h1 class="section-title">Portfolio</h1>
+
+        <p class="section-title-text">A look at our previous work</p>
+    </div>
+
+    
+        <div class="portfolio">
+
+                <div class="portfolio-image-wrapper-1">
+                    <img class="image-styles" src="flower-portfolio.jpg" alt="">
+                </div>
+
+                <div class="portfolio-image-wrapper-2">
+                    <img class="image-styles" src="wine-portfolio.jpg" alt="">
+                </div>    
+
+                <div class="portfolio-image-wrapper-3">
+                    <img class="image-styles" src="glasses-portfolio.jpg" alt="">
+                </div>
+
+                <div class="portfolio-image-wrapper-4">
+                    <img class="image-styles" src="fluffy-coat-portfolio.jpg" alt="">
+                </div>
+
+                <div class="portfolio-image-wrapper-5">
+                    <img class="image-styles" src="dermatology-portfolio.jpg" alt="">
+                </div>
+
+                <div class="portfolio-image-wrapper-6">
+                    <img class="image-styles" src="looking-portfolio.jpg" alt="">
+                </div>
+        </div>
+
+
+
+        <div class="footer-container">
+            <div>
+                <h1 class="footer-header">Lotus Inc.</h1>
+            </div>
+    
+            <div class="footer-link-wrapper">
+                <a class="footer-link-styles" href="index.html">Home</a>
+                <a class="footer-link-styles" href="">Portfolio</a>
+                <a class="footer-link-styles" href="services.html">Services</a>
+                <button class="contact-toggle footer-link-styles" id="contact-button">Contact Us</button>
+            </div>
+    
+           
+    
+            <div style="display: none;" id="contact-form" class="contact-wrapper">
+    
+             
+                <form class="contact-form" action="">
+    
+                    <p class="input-title">Name</p>
+                    <input class="form-styles" required type="text" placeholder="">
+    
+                    <p  class="input-title" >E-mail</p>
+                    <input class="form-styles" required type="text">
+    
+                    <p class="input-title" >Phone-Number</p>
+                    <input class="form-styles" required type="number">
+    
+                    <p class="input-title">Comment</p>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+    
+                    <input class="form-submit" type="submit">
+                   
+               </form>
+    
+                
+            </div>
+    
+        </div>
+       
+        <script src="portfolio-javascript.js"></script>    
+</body>
+</html>

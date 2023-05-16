@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Lotus Inc.</title>
+</head>
+<body>
+    <nav class="nav-menu">
+        <div>
+
+            <a class="nav-menu-link hide-nl-mobile" href="portfolio.html">PORTFOLIO</a>
+
+            <button class="hamburger-button" id="hamburger-button">
+                <svg class="burger-styles"
+                viewBox="0 0 24 24" width="32" height="32">
+                <path
+                    d="
+                m 2 8
+                h 20
+                "
+                />
+
+                <path
+                    d="
+                m 2 14
+                h 20
+                "
+                />
+
+                <path
+                    d="
+                m 2 20
+                h 20
+                "
+                />
+                
+                
+                </svg>
+
+            </button>
+
+         </div>
+        <a class="nav-menu-link nav-menu-logo" href="index.html">Lotus Inc.</a>
+
+        <a class="nav-menu-link hide-nl-mobile nav-menu-desk-link" href="services.html">SERVICES</a>
+    </nav>
+
+    <div id="nav-menu" style="display: none;" class=" dropdown-container">
+        
+        
+
+        <div class="dropdown-wrapper">
+
+            <div id="exit-button" class="exit-button-style">
+                <button class="hamburger-button-exit">
+                    <svg 
+                    viewBox="0 0 24 24" width="32" height="32">>
+                        <path 
+                            d="
+                            M 2 2 
+                            L 22 22
+                            z
+                            M 2 22
+                            L 22 2
+                            z
+                            "
+                        />
+                    </svg> 
+                </button>
+            </div>
+
+
+
+            <div class="dropdown-link-spacing">
+                <div class="dropdown-link-wrapper">
+                    
+                    <a class="dropdown-link" href="index.html">HOME</a>
+                </div>
+
+                <div class="dropdown-link-wrapper">
+                    <a class="dropdown-link" href="portfolio.html">PORTFOLIO</a>
+                </div>
+
+                <div class="dropdown-link-wrapper">
+                    <a class="dropdown-link" href="services.html">SERVICES</a>
+                </div>
+            </div>
+            
+        </div>             
+    </div>
+
+<!-- start of picture section -->
+
+    <div class="hero-container">
+        <div class="hero-wrapper">
+            <img class="hero-img image-styles " src="hero-img.jpg"
+            alt="">
+        </div>
+
+        <div class="hero-wrapper hero-wrapper-2">
+            <img class="hero-img image-styles " src="hero-img-2.jpg"
+            alt="">
+        </div>
+
+        <div class="hero-wrapper hero-wrapper-3">
+            <img class="hero-img image-styles " src="hero-img-3.jpg"
+            alt="">
+        </div>
+
+    </div>
+
+    <div class="hero-container hero-container-2">
+        <div class="hero-wrapper hero-wrapper-4">
+            <img class="hero-img-2 image-styles fade-in" src="sunset-venice.jpg"
+            alt="">
+        </div>
+
+        <div class="hero-wrapper hero-wrapper-5">
+            <img class="hero-img-2 image-styles fade-in" src="afternoon-walkway.jpg"
+            alt="">
+        </div>
+    </div>
+
+    <div id="welcome-container-transition" class="welcome-container">
+
+        
+            <h1 class="welcome-header">
+                Welcome to Lotus Inc.
+            </h1>
+
+            <p class="welcome-text">
+                Eget aliquet nibh praesent tristique magna sit amet.
+                Turpis massa sed elementum tempus egestas sed sed.
+                Elementum curabitur vitae nunc sed velit dignissim sodales ut eu.
+            </p>
+       
+    </div>
+
+    <div class="about-us-container">
+        <div class="about-us-image-wrapper">
+            <img class="image-styles image-desktop-style" src="About-img.jpg"
+            alt="">
+        </div>
+        <div class="about-us-text-wrapper">
+            <h2 class="about-us-header">
+                About Us
+            </h2>
+
+            <p class="about-us-text">
+                Habitasse platea dictumst quisque sagittis purus sit amet volutpat.
+                Nulla pellentesque dignissim enim sit. 
+                Lectus nulla at volutpat diam ut venenatis tellus.
+            </p>
+        </div>
+    </div>
+
+
+    <div class="testimonials-container">
+        <p class="testimonials-wrapper">
+            "Sodales ut eu sem integer. Turpis massa sed elementum tempus. 
+            Ut ornare lectus sit amet est placerat in egestas erat. 
+            Id donec ultrices tincidunt arcu non sodales."
+        </p>
+
+
+        <p class="testimonials-wrapper">
+            "Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum.
+            Dignissim enim sit amet venenatis urna cursus eget.
+            Amet nulla facilisi morbi tempus iaculis urna id volutpat lacus."
+        </p>
+
+        <p class="testimonials-wrapper">
+            "Duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam.
+            Penatibus et magnis dis parturient montes nascetur ridiculus.
+            Arcu non odio euismod lacinia at quis risus."
+        </p>
+    </div>
+
+
+    <div class="footer-container">
+        <div>
+            <h1 class="footer-header">Lotus Inc.</h1>
+        </div>
+
+        <div class="footer-link-wrapper">
+            <a class="footer-link-styles" href="index.html">HOME</a>
+            <a class="footer-link-styles" href="portfolio.html">PORTFOLIO</a>
+            <a class="footer-link-styles" href="services.html">SERVICES</a>
+            <button class="contact-toggle footer-link-styles" id="contact-button">CONTACT US</button>
+        </div>
+
+       
+
+        <div style="display: none;" id="contact-form" class="contact-wrapper">
+
+         
+            <form class="contact-form" action="">
+
+                <p class="input-title">Full Name</p>
+                <input class="form-styles" required type="text" placeholder="">
+
+                <p  class="input-title" >E-mail</p>
+                <input class="form-styles" required type="text">
+
+                <p class="input-title" >Phone-Number</p>
+                <input class="form-styles" required type="number">
+
+                <p class="input-title">Comment</p>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                <input class="form-submit" type="submit">
+               
+           </form>
+
+            
+        </div>
+
+    </div>
+
+    <script src="index-javascript.js"></script>
+    
+</body>
+</html>
